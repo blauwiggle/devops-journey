@@ -5,7 +5,7 @@
 ```bash
 git clone https://gitlab.com/devops-bootcamp3/git-project.git
 cd git-project
-git remote add origin https://github.com/blauwiggle/devops-journey-e1.git
+git remote add origin https://github.com/blauwiggle/devops-journey-e2.git
 git branch -M main
 git push -u origin main
 ```
