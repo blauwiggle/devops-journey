@@ -5,6 +5,12 @@
 ```bash
 git clone https://gitlab.com/devops-bootcamp3/java-gradle-app.git
 cd java-gradle-app
+
+rm -rf .git
+git init 
+git add .
+git commit -m "initial commit"
+
 git remote add origin https://github.com/blauwiggle/devops-journey-e3.git
 git branch -M main
 git push -u origin main
