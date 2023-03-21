@@ -2,26 +2,23 @@ baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "DevOps Journey Documentation"
+title = "Hugo Learn Documentation"
 theme = "hugo-theme-learn"
 themesdir = "../.."
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-editURL = "https://github.com/blauwiggle/devops-journey/edit/master/content/"
-description = "Documentation for DevOps Journey"
-author = "Michael Vanhee"
-showVisitedLinks = true
-disableBreadcrumb = false
-disableNextPrev = false
-disableLandingPageButton = true
-disableMermaid = false
-customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
-titleSeparator = "::"
-
-# (Rest of the config.toml remains unchanged)
-
+  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+  description = "Documentation for Hugo Learn Theme"
+  author = "Mathieu Cornic"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableLandingPageButton = true
+  disableMermaid = false
+  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  titleSeparator = "::"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
