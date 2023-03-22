@@ -1,3 +1,8 @@
+---
+title: "Solutions"
+weight: 2
+---
+
 ## Exercise 1: Install Nexus on a server
 
 A Nexus instance is running on an EC2 Instance under `3.74.45.223:8081`. 
@@ -17,6 +22,8 @@ $ docker run -d -p 8081:8081 --name nexus -v nexus-data:/nexus-data sonatype/nex
 5. Enter a name for the repository and create a new blob store for it. 
 6. Click "Create repository".
 
+![Image](/images/nexus/overview.png)
+
 ## Exercise 3: Create user for team 1
 
 1. Go to "Server administration and configuration" (gear icon). 
@@ -24,6 +31,8 @@ $ docker run -d -p 8081:8081 --name nexus -v nexus-data:/nexus-data sonatype/nex
 3. Fill in the required fields (username, first name, last name, email, password). 
 4. Assign appropriate roles for accessing the npm repository (e.g., nx-repository-view-npm-*). 
 5. Click "Create local user".
+
+![Image](/images/nexus/user.png)
 
 ## Exercise 4: Build and publish npm tar
 

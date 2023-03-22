@@ -1,4 +1,7 @@
-# Git
+---
+title: "Solutions"
+weight: 2
+---
 
 ## EXERCISE 1: Clone and create new repository
 
@@ -11,7 +14,7 @@ git init
 git add .
 git commit -m "initial commit"
 
-git remote add origin https://github.com/blauwiggle/devops-journey-e2.git
+git remote add origin https://github.com/blauwiggle/devops-journey-git-project.git
 git branch -M main
 git push -u origin main
 ```
@@ -78,6 +81,7 @@ git checkout main
 git pull origin main
 git checkout bugfix/fix
 git merge main
+
 # Fix merge conflicts if any
 git add .
 git commit -m "Resolve merge conflicts"

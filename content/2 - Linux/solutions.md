@@ -1,16 +1,20 @@
-# Linux
+---
+title: "Solutions"
+weight: 2
+---
 
 ## EXERCISE 1: Linux Mint Virtual Machine
 
-You can create a Linux Mint Virtual Machine using VirtualBox or VMware. Download Linux Mint ISO from https://www.linuxmint.com/download.php and follow the steps to install it in a virtual environment.
+A Linux Mint Virtual Machine can be created using VirtualBox or VMware. Download the Linux Mint ISO from https://www.linuxmint.com/download.php and follow the steps to install it in a virtual environment.
 
-Once you have Linux Mint running, open the terminal and check the following:
+After having Linux Mint running, open the terminal and check the following:
 
-Distribution: `cat /etc/*-release`
-Package manager: Linux Mint uses `apt` or `apt-get`
-CLI editor: By default, `nano` is usually installed, but you can check by typing `nano`, `vi`, or `vim` and see which one opens.
-Software center: Linux Mint comes with "Software Manager."
-Shell: Check the shell for your user with `echo $SHELL
+- Distribution: `cat /etc/*-release`
+- Package manager: Linux Mint uses `apt` or `apt-get`
+- CLI editor: By default, `nano` is usually installed, but you can check by typing `nano`, `vi`, or `vim` and see
+  which one opens.
+- Software center: Linux Mint comes with "Software Manager."
+- Shell: Check the shell for your user with `echo $SHELL
 
 ## EXERCISE 2: Bash Script - Install Java
 
@@ -42,7 +46,7 @@ fi
 ps aux | grep "$USER"
 ```
 
-## #EXERCISE 4: Bash Script - User Processes Sorted
+## EXERCISE 4: Bash Script - User Processes Sorted
 
 ```bash
 #!/bin/bash
